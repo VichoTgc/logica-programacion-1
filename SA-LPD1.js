@@ -18,7 +18,8 @@ if (num1 === num2 && num2 === num3) {
     let ordenadosMayorMenor = [...numeros].sort((a, b) => b - a);
 
     // Imprimir los Resultados
-    console.log("Números ingresados:", numeros.join(", "));
-    console.log("Ordenados de menor a mayor:", ordenadosMenorMayor.join(", "));
-    console.log("Ordenados de mayor a menor:", ordenadosMayorMenor.join(", "));
+    console.log("Números ingresados: ", numeros.join(", "));
+    console.log("Número del centro es: ", numeros[1])
+    console.log("Ordenados de menor a mayor: ", ordenadosMenorMayor.join(", "));
+    console.log("Ordenados de mayor a menor: ", ordenadosMayorMenor.join(", "));
 }
